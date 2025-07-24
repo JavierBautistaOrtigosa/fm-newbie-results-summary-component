@@ -136,6 +136,9 @@ button {
 .p-200 {
     padding: 1rem; /* 16px */
 }
+.pr-200 {
+    padding-right: 1rem;
+}
 .p-300 {
     padding: 1.5rem; /* 24px */
 }
@@ -182,6 +185,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 32px;
     border-radius: 30px;
     background-color: var(--blue-800);
     background: linear-gradient(180deg, #75f 0%, #2f2ce9 100%);
@@ -209,9 +213,110 @@ body {
     color: var(--navy-200);
 }
 
+.card__message {
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card__message-main {
+    color: var(--white);
+}
+
+.card__message-description {
+    text-align: center;
+    color: var(--navy-200);
+}
+
 .card__summary {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card__summary-title {
+    width: 288px;
+    text-align: left;
+}
+
+.card__stats {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card__stat {
+    height: 56px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.card__stat-info {
+    display:flex;
+    gap: 16px;
+}
+
+.card__stat-score {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.card__stat:nth-child(1) {
+    background-color: var(--red-50);
+}
+.card__stat:nth-child(2) {
+    background-color: var(--yellow-50);
+}
+.card__stat:nth-child(3) {
+    background-color: var(--green-50);
+}
+.card__stat:nth-child(4) {
+    background-color: var(--blue-50);
+}
+
+.card__stat--reaction .card__stat-label {
+    color: var(--red-400);
+}
+
+.card__stat--memory .card__stat-label {
+    color: var(--yellow-400);
+}
+
+.card__stat--verbal .card__stat-label {
+    color: var(--green-500);
+}
+
+.card__stat--visual .card__stat-label {
+    color: var(--blue-800);
+}
+
+.card__stat .card__stat-score--primary {
+    color: var(--navy-950);
+
+}
+
+.card__stat .card__stat-score--secondary {
+    color: var(--navy-950);
+    opacity: 50%;
+}
+
+
+
+button {
+    width: 288px;
+    height: 56px;
+    text-align: center;
+    border-radius: 128px;
+    color: var(--white);
+    background-color: var(--navy-950);
 }
