@@ -9,6 +9,15 @@ font-style: normal;
 }
 _/
 
+/_
+@media (min-width: 375px)
+@media (min-width: 640px)
+@media (min-width: 768px)
+@media (min-width: 1024px)
+@media (min-width: 1280px)
+@media (min-width: 1536px)
+_/
+
 /_ Utilities _/
 
 /_ --- Text Preset 1 --- _/
