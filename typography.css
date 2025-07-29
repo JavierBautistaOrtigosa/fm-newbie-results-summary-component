@@ -1,0 +1,116 @@
+/* --- Text Presets --- */
+
+/* Preset 1 */
+.tp1 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;       /* font-extrabold */
+  font-size: 4.5rem;      /* text-7xl */
+  line-height: 1;         /* leading-none */
+  letter-spacing: 0;      /* tracking-normal */
+}
+
+/* Preset 2 */
+.tp2 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;      /* text-6xl */
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+/* Preset 3 */
+.tp3 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;       /* font-bold */
+  font-size: 2rem;        /* text-4xl */
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* Preset 4 */
+.tp4 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;      /* text-3xl */
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* Preset 5 Bold */
+.tp5b {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;    /* text-xl */
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* Preset 5 Medium */
+.tp5m {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;       /* font-medium */
+  font-size: 1.125rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* Preset 6 Bold */
+.tp6b {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;        /* text-lg */
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* Preset 6 Medium */
+.tp6m {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+/* --- Margin Utilities --- */
+.m-0 {
+  margin: 0;
+}
+.m-2 {
+  margin: 0.5rem;   /* 8px */
+}
+.m-4 {
+  margin: 1rem;     /* 16px */
+}
+.m-6 {
+  margin: 1.5rem;   /* 24px */
+}
+.m-8 {
+  margin: 2rem;     /* 32px */
+}
+.m-20 {
+  margin: 5rem;     /* 80px */
+}
+
+/* --- Padding Utilities --- */
+.p-0 {
+  padding: 0;
+}
+.p-2 {
+  padding: 0.5rem;  /* 8px */
+}
+.p-4 {
+  padding: 1rem;    /* 16px */
+}
+.p-6 {
+  padding: 1.5rem;  /* 24px */
+}
+.p-8 {
+  padding: 2rem;    /* 32px */
+}
+.p-20 {
+  padding: 5rem;    /* 80px */
+}
+.pr-4 {
+  padding-right: 1rem; /* 16px */
+}

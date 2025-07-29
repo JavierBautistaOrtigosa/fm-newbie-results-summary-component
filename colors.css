@@ -1,0 +1,33 @@
+/* colors.css */
+:root {
+  /* Neutrals */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Navy */
+  --navy-950: #303b59;
+  --navy-200: #cac9ff;
+  --navy-50: #ecf2ff;
+
+  /* Blue */
+  --blue-800: #1125d6;
+  --blue-50: #f3f4fd;
+
+  /* Yellow */
+  --yellow-400: #ffb21e;
+  --yellow-50: #fffbf4;
+
+  /* Red */
+  --red-400: #ff5555;
+  --red-50: #fff6f6;
+
+  /* Green */
+  --green-500: #00bb8f;
+  --green-50: #f2fcf9;
+
+  /* Gradients */
+  --gradient-1-top: #4d21c9;
+  --gradient-1-bottom: #2421c900;
+  --gradient-2-top: #7755ff;
+  --gradient-2-bottom: #2f2ce9;
+}

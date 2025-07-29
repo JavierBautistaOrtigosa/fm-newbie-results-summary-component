@@ -1,3 +1,6 @@
+@import './colors.css';
+@import './typography.css';
+
 *,
 *::before,
 *::after {
@@ -9,26 +12,6 @@
 button {
     all: unset;
     outline: revert;
-}
-
-:root {
-    --white: #ffffff;
-    --black: #000000;
-    --navy-950: #303b59;
-    --navy-200: #cac9ff;
-    --navy-50: #ecf2ff;
-    --blue-800: #1125d6;
-    --blue-50: #f3f4fd;
-    --yellow-400: #ffb21e;
-    --yellow-50: #fffbf4;
-    --red-400: #ff5555;
-    --red-50: #fff6f6;
-    --green-500: #00bb8f;
-    --green-50: #f2fcf9;
-    --gradient-1-top: #4d21c9;
-    --gradient-1-bottom: #2421c900;
-    --gradient-2-top: #7755ff;
-    --gradient-2-bottom: #2f2ce9;
 }
 
 .section {
@@ -65,7 +48,20 @@ button {
 .card__score {
     height: 200px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(255, 0, 0, 0.2);
+}
+.card__score-circle {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 255, 0.1);
 }
 
 .card__message {
